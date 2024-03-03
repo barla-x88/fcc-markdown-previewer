@@ -13,6 +13,28 @@
   height: 100%;
 }
 
+#preview {
+  overflow: scroll;
+}
+
 .hidden {
   display: none;
+}
+
+#preview img {
+  max-width: 100%;
+}
+
+#preview table {
+  min-width: 50%;
+}
+
+#preview tr,
+#preview th,
+#preview td {
+  border: 1px solid;
+}
+
+#preview :is(h1, h2, h3, h4, h5, h6) {
+  border-bottom: 1px solid slategray;
 }
